@@ -1,8 +1,6 @@
 # 📦 Node modules
 node_modules/
 
-# 🧠 Cache puppeteer
-.wwebjs_cache/
 
 # 🚫 Ignorer toute la session sauf les fichiers essentiels
 .wwebjs_auth/*
