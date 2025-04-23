@@ -1,9 +1,6 @@
 # 📦 Node modules
 node_modules/
-
-
-# 🚫 Ignorer toute la session sauf les fichiers essentiels
-.wwebjs_auth/*
+# Inclure la session
 !.wwebjs_auth/session/
 !.wwebjs_auth/session/Default/
 !.wwebjs_auth/session/Default/Cookies
@@ -11,17 +8,9 @@ node_modules/
 !.wwebjs_auth/session/Default/Session Storage/
 !.wwebjs_auth/session/Default/chrome_debug.log
 
-# ❌ Exclure les fichiers inutiles dans la session
-.wwebjs_auth/session/Default/Cache/
-.wwebjs_auth/session/Default/Code Cache/
-.wwebjs_auth/session/Default/databases/
-.wwebjs_auth/session/Default/DawnCache/
-.wwebjs_auth/session/Default/GPUCache/
-.wwebjs_auth/session/Default/IndexedDB/
-.wwebjs_auth/session/Default/Local Storage/
-.wwebjs_auth/session/Default/Service Worker/
-.wwebjs_auth/session/Default/WebStorage/
-.wwebjs_auth/session/Default/blob_storage/
+# Mais ignorer tout le reste
+.wwebjs_auth/*
+.wwebjs_auth/session/Default/*.*
 
 # 💻 IDEs
 .vscode/
