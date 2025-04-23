@@ -1,0 +1,34 @@
+# 📦 Node modules
+node_modules/
+
+# 🧠 Cache puppeteer
+.wwebjs_cache/
+
+# 🚫 Ignorer toute la session sauf les fichiers essentiels
+.wwebjs_auth/*
+!.wwebjs_auth/session/
+!.wwebjs_auth/session/Default/
+!.wwebjs_auth/session/Default/Cookies
+!.wwebjs_auth/session/Default/Cookies-journal
+!.wwebjs_auth/session/Default/Session Storage/
+!.wwebjs_auth/session/Default/chrome_debug.log
+
+# ❌ Exclure les fichiers inutiles dans la session
+.wwebjs_auth/session/Default/Cache/
+.wwebjs_auth/session/Default/Code Cache/
+.wwebjs_auth/session/Default/databases/
+.wwebjs_auth/session/Default/DawnCache/
+.wwebjs_auth/session/Default/GPUCache/
+.wwebjs_auth/session/Default/IndexedDB/
+.wwebjs_auth/session/Default/Local Storage/
+.wwebjs_auth/session/Default/Service Worker/
+.wwebjs_auth/session/Default/WebStorage/
+.wwebjs_auth/session/Default/blob_storage/
+
+# 💻 IDEs
+.vscode/
+.idea/
+
+# 🚀 Fichiers système
+.DS_Store
+Thumbs.db
